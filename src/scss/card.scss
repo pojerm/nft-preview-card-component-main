@@ -1,0 +1,14 @@
+.card {
+    background-color: $card-BG;
+    width: 400px;
+    padding: 24px;
+    border-radius: 16px;
+    
+
+    &__image {
+        background-size: cover;
+        width: 100%;
+        border-radius: 16px;
+    }
+}
+

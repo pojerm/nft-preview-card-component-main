@@ -9,9 +9,11 @@ body {
   flex-flow: column;
   font-size: 18px;
   font-family: "Outfit", sans-serif;
-  background-color: grey;
+  background-color: $main-BG;
   height: 100vh;
+//   centriraj sve u sredinu 
   justify-content: center;
+  align-items: center;
 }
 
 
