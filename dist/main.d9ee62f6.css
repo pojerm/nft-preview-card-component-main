@@ -43,12 +43,15 @@ body {
 .card__stats {
   display: flex;
   justify-content: space-between;
+  font-size: 1.8rem;
+  padding: 0;
 }
 .card__stats--1 {
-  color: #772323;
+  color: #00fff7;
   list-style-image: url("/icon-ethereum.66101727.svg");
 }
 .card__stats--2 {
+  color: #8bacda;
   list-style-image: url("/icon-clock.1a3b33d7.svg");
 }
 

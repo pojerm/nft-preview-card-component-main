@@ -1,41 +1,43 @@
 .card {
-    background-color: $card-BG;
-    width: 40rem;
-    padding: 2.3rem;
+  background-color: $card-BG;
+  width: 40rem;
+  padding: 2.3rem;
+  border-radius: 16px;
+
+  &__image {
+    background-size: cover;
+    width: 100%;
     border-radius: 16px;
-
-    &__image {
-        background-size: cover;
-        width: 100%;
-        border-radius: 16px;
+  }
+  &__title {
+    font-size: 23px;
+    color: $white;
+  }
+  &__text {
+    color: $soft-blue;
+  }
+  &__stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    // da se makne ovaj pomak e desno
+    //nisam ni znao da ul ima padding xD
+    padding: 0;
+    &--1 {
+        color: $cyan;
+      list-style-image: url("../../images/icon-ethereum.svg");
     }
-    &__title {
-        font-size: 23px;
-        color: $white;
-    }
-    &__text {
+    &--2 {
         color: $soft-blue;
-
+        list-style-image: url("../../images/icon-clock.svg");
     }
-    &__stats {
-        display: flex;
-        justify-content: space-between;
-        &--1 {
-            color: rgb(119, 35, 35);
-            list-style-image: url('../../images/icon-ethereum.svg');
-        }
-        &--2 {
-    list-style-image: url('../../images/icon-clock.svg');
-
-        }
-    }
-    &__author {
-
-    }
+  }
+  &__author {
+  }
 }
 
-// ne mogu koristit nth-child() secector 
-// ne znam zasto 
+// ne mogu koristit nth-child() secector
+// ne znam zasto
 // .card__stats--1 {
 //     list-style-image: url('../../images/icon-ethereum.svg');
 // }
