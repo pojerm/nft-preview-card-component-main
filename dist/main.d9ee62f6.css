@@ -40,5 +40,16 @@ body {
 .card__text {
   color: #8bacda;
 }
+.card__stats {
+  display: flex;
+  justify-content: space-between;
+}
+.card__stats--1 {
+  color: #772323;
+  list-style-image: url("/icon-ethereum.66101727.svg");
+}
+.card__stats--2 {
+  list-style-image: url("/icon-clock.1a3b33d7.svg");
+}
 
 /*# sourceMappingURL=/main.d9ee62f6.css.map */

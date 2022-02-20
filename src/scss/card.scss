@@ -4,9 +4,6 @@
     padding: 2.3rem;
     border-radius: 16px;
 
-
-    
-
     &__image {
         background-size: cover;
         width: 100%;
@@ -20,11 +17,28 @@
         color: $soft-blue;
 
     }
-    &__stat {
+    &__stats {
+        display: flex;
+        justify-content: space-between;
+        &--1 {
+            color: rgb(119, 35, 35);
+            list-style-image: url('../../images/icon-ethereum.svg');
+        }
+        &--2 {
+    list-style-image: url('../../images/icon-clock.svg');
 
+        }
     }
     &__author {
 
     }
 }
 
+// ne mogu koristit nth-child() secector 
+// ne znam zasto 
+// .card__stats--1 {
+//     list-style-image: url('../../images/icon-ethereum.svg');
+// }
+// .card__stats--2 {
+//     list-style-image: url('../../images/icon-clock.svg');
+// }
