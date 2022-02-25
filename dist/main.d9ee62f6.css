@@ -1,4 +1,4 @@
-@import url("https://fonts.google.com/specimen/Outfit");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -11,7 +11,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  line-height: 1.3;
   display: flex;
   flex-flow: column;
   font-size: 18px;
@@ -23,7 +22,7 @@ body {
 }
 
 .card {
-  background-color: #14253d;
+  background-color: #14253e;
   width: 40rem;
   padding: 2.3rem;
   border-radius: 16px;
@@ -36,15 +35,19 @@ body {
 .card__title {
   font-size: 23px;
   color: white;
+  font-weight: 600;
 }
 .card__text {
   color: #8bacda;
+  font-size: 1.9rem;
+  font-weight: 300;
+  line-height: 1.6;
 }
 .card__stats {
   display: flex;
   justify-content: space-between;
-  font-size: 1.8rem;
   padding: 0;
+  margin: 0 0.8rem 1.6rem 0.8rem;
 }
 .card__stats--1 {
   color: #00fff7;
@@ -53,6 +56,12 @@ body {
 .card__stats--2 {
   color: #8bacda;
   list-style-image: url("/icon-clock.1a3b33d7.svg");
+}
+.card__stats__line {
+  border: 0.3px solid #2f415b;
+}
+ul li::marker {
+  padding: 100px;
 }
 
 /*# sourceMappingURL=/main.d9ee62f6.css.map */

@@ -1,4 +1,5 @@
-@import url('https://fonts.google.com/specimen/Outfit');
+// @import url('https://fonts.google.com/specimen/Outfit');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 html {
   font-size: 62.5%;
@@ -12,7 +13,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  line-height: 1.3;
+  // line-height: 1.3;
   // resetovi koje je trebalo ranije dodati 
   display: flex;
   flex-flow: column;

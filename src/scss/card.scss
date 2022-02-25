@@ -12,35 +12,46 @@
   &__title {
     font-size: 23px;
     color: $white;
+    font-weight: 600;
   }
   &__text {
     color: $soft-blue;
+    font-size: 1.9rem;
+    font-weight: 300;
+    line-height: 1.6;
+    
   }
   &__stats {
     display: flex;
     justify-content: space-between;
-    font-size: 1.8rem;
+    // ovo vec pise u body 
+    // font-size: 1.8rem;
     // da se makne ovaj pomak e desno
     //nisam ni znao da ul ima padding xD
     padding: 0;
+    margin: 0 0.8rem 1.6rem 0.8rem;
+    
     &--1 {
-        color: $cyan;
+      color: $cyan;
       list-style-image: url("../../images/icon-ethereum.svg");
     }
     &--2 {
-        color: $soft-blue;
-        list-style-image: url("../../images/icon-clock.svg");
+      color: $soft-blue;
+      list-style-image: url("../../images/icon-clock.svg");
+    }
+    &__line {
+        border: 0.3px solid $line;
     }
   }
   &__author {
   }
 }
 
-// ne mogu koristit nth-child() secector
-// ne znam zasto
-// .card__stats--1 {
-//     list-style-image: url('../../images/icon-ethereum.svg');
-// }
-// .card__stats--2 {
-//     list-style-image: url('../../images/icon-clock.svg');
-// }
+li::before {
+  content: "::before";
+  background: lightgray;
+  border-radius: 1ch;
+  padding-inline: 1ch;
+  margin-inline-end: 1ch;
+}g: 100px;
+}
