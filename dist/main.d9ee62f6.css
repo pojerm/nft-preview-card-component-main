@@ -60,8 +60,5 @@ body {
 .card__stats__line {
   border: 0.3px solid #2f415b;
 }
-ul li::marker {
-  padding: 100px;
-}
 
 /*# sourceMappingURL=/main.d9ee62f6.css.map */
