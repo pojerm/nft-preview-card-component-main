@@ -19,38 +19,53 @@
     font-size: 1.9rem;
     font-weight: 300;
     line-height: 1.6;
-    
   }
   &__stats {
     display: flex;
     justify-content: space-between;
-    // ovo vec pise u body 
+    // ovo vec pise u body
     // font-size: 1.8rem;
     // da se makne ovaj pomak e desno
     //nisam ni znao da ul ima padding xD
     padding: 0;
-    margin: 0 0.8rem 1.6rem 0.8rem;
-    
+    // margin: 0 0.8rem 1.6rem 0.8rem;
+
     &--1 {
       color: $cyan;
-      list-style-image: url("../../images/icon-ethereum.svg");
+      background: url(../../images/icon-ethereum.svg) no-repeat 6px 3px
+        transparent;
+      list-style-type: none;
+      margin: 0;
+      padding: 0px 0px 1px 24px;
+      vertical-align: middle;
     }
     &--2 {
       color: $soft-blue;
-      list-style-image: url("../../images/icon-clock.svg");
+      background: url(../../images/icon-clock.svg) no-repeat 0px 3px transparent;
+      list-style-type: none;
+      margin: 0;
+      padding: 0px 0px 1px 24px;
+      vertical-align: middle;
     }
     &__line {
-        border: 0.3px solid $line;
+      display: block;
+      height: 0px;
+      border: 0;
+      border-top: 1px solid #ccc;
+      /* margin: 0em 0; */
+      padding: 0;
     }
   }
   &__author {
   }
 }
 
-// li::before {
-//   content: "::before";
-//   background: lightgray;
-//   border-radius: 1ch;
-//   padding-inline: 1ch;
-//   margin-inline-end: 1ch;
+// li
+// {
+//     // background: url(../../images/icon-ethereum.svg) no-repeat 7px 7px transparent;
+//     background: url(../../images/icon-ethereum.svg) no-repeat 6px 3px transparent;
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0px 0px 1px 24px;
+//     vertical-align: middle;
 // }
