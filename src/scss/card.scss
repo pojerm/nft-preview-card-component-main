@@ -12,7 +12,7 @@
   &__title {
     font-size: 23px;
     color: $white;
-    font-weight: 600;
+    // font-weight: 600;
   }
   &__text {
     color: $soft-blue;
@@ -49,14 +49,29 @@
     }
     &__line {
       display: block;
-      height: 0px;
+      height: 1px;
       border: 0;
-      border-top: 1px solid #ccc;
+      border-top: 1px solid rgb(182, 23, 23);
+      background: red;
       /* margin: 0em 0; */
       padding: 0;
+
+      
     }
   }
-  &__author {
+  &__creator {
+    color: $soft-blue;
+  }
+
+  // dodano za card footwer 
+  &__footer {
+    display: flex;
+    align-items: center;
+  }
+  &__creator-img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 18px;
   }
 }
 
