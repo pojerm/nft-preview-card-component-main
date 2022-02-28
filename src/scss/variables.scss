@@ -11,3 +11,8 @@ $cyan: hsl(178, 100%, 50%);
 .bold {
     font-weight: 600;
 }
+.hover-effect {
+    &:hover {
+        color: $cyan;
+    }
+}
