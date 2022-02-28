@@ -1,6 +1,6 @@
 .card {
   background-color: $card-BG;
-  width: 40rem;
+  width: 35rem;
   padding: 2.3rem;
   border-radius: 16px;
 
@@ -16,7 +16,7 @@
   }
   &__text {
     color: $soft-blue;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     font-weight: 300;
     line-height: 1.6;
   }
@@ -72,6 +72,10 @@
     width: 4rem;
     height: 4rem;
     margin-right: 18px;
+    // kruzic unutarnje strane slike 
+    outline: 1px solid $white;
+    outline-offset: 0px;
+    border-radius: 50%;
   }
 }
 

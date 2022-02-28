@@ -27,7 +27,7 @@ body {
 
 .card {
   background-color: #14253e;
-  width: 40rem;
+  width: 35rem;
   padding: 2.3rem;
   border-radius: 16px;
 }
@@ -42,7 +42,7 @@ body {
 }
 .card__text {
   color: #8bacda;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 300;
   line-height: 1.6;
 }
@@ -87,6 +87,9 @@ body {
   width: 4rem;
   height: 4rem;
   margin-right: 18px;
+  outline: 1px solid white;
+  outline-offset: 0px;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=/main.d9ee62f6.css.map */
