@@ -11,8 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/pojerm/nft-preview-card-component-main.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Marko Pojer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pojerm/nft-preview-card-component-main/issues"
@@ -20,6 +19,6 @@
   "homepage": "https://github.com/pojerm/nft-preview-card-component-main#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
-    "sass": "^1.49.7"
+    "sass": "^1.49.9"
   }
 }
