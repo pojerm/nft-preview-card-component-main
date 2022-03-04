@@ -6,9 +6,10 @@
 
   &__image-container {
     border-radius: 16px;
-    background-color: $cyan; 
    overflow: hidden;  
    position: relative;
+   background-color: black;
+   transition: background-color 0.5s ease;  
 
    &:hover :after {
      content: "";
@@ -18,16 +19,12 @@
      position: absolute;
      top: 0;
      left: 0;
-     background-color: $cyan;
-    background-color: rgba($cyan, .5);
-
+     background-color: rgba($cyan, .5);
      background-image: url(../../images/icon-view.svg);
-    //  background-size: 100px 100px;
+     //  background-size: 100px 100px;
      background-position: 50%;
      background-repeat: no-repeat;
-
    }
-   
   }
   &__image {
     background-size: cover;
@@ -42,8 +39,8 @@
     }
   }
   &__image-overlay {
-    background: url(../../images/icon-view.svg);
-    background-size: cover;
+    // background: url(../../images/icon-view.svg);
+    // background-size: cover;
   }
   
   &__title {
@@ -60,13 +57,8 @@
   &__stats {
     display: flex;
     justify-content: space-between;
-    // ovo vec pise u body
-    // font-size: 1.8rem;
-    // da se makne ovaj pomak e desno
-    //nisam ni znao da ul ima padding xD
     padding: 0;
-    // margin: 0 0.8rem 1.6rem 0.8rem;
-
+    
     &--1 {
       color: $cyan;
       background: url(../../images/icon-ethereum.svg) no-repeat 6px 3px
@@ -86,7 +78,9 @@
     }
 
   }
-
+  &__line {
+    border-color: $line;
+  }
 
 // dodano za card footwer 
   &__footer {
@@ -104,6 +98,3 @@
   }
 }
 
-.card__line {
-  border-color: $line;
-}
